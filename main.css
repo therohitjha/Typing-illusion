@@ -1,0 +1,57 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: therohitjha Typing Illusion
+    Description: This is a Typing Illusion
+    Author: Rohit Jha
+-----------------------------------------------------------------------------------
+ */
+
+
+body,html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+   
+  }
+  
+  
+  body{
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .typing{
+    
+    
+  }
+  
+  h1{
+    animation: type 2s steps(15) infinite,blink .5s infinite alternate;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 14ch;
+    border-right: 2px solid;
+  }
+  
+  
+  @keyframes type{
+    from {
+      width: 0;
+    }
+  }
+    
+    @keyframes blink{
+      
+      50%{
+         border-color: transparent;
+      }
+    }
+
+
+    .name{
+        font-family: 'Tahoma';
+        letter-spacing: .2em;
+    }
